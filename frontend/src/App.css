@@ -1,0 +1,128 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.heading {
+  background-color: #aeb1b5;
+  color: #fff;
+  font-size: 10px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* selector-section */
+.selector-section {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.select-search {
+  flex: 1;
+  margin-right: 200px;
+}
+
+.select-search input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.select-month {
+  flex: 1; /* Take up remaining space */
+}
+
+.select-month select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* table section */
+
+.table-section {
+  margin-top: 20px;
+}
+
+.table-section h2 {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+table {
+  font-size: 13px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+}
+
+td {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+img {
+  max-width: 70px;
+  height: auto;
+}
+
+/* statics table section */
+.statistics-table {
+  margin-top: 20px;
+  width: 300px; /* Adjust the width as needed */
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.statistics-table h2 {
+  font-size: 16px; /* Adjust the font size */
+  margin-bottom: 5px; /* Adjust the margin */
+}
+
+.statistics-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.statistics-table th, .statistics-table td {
+  padding: 5px; /* Adjust the padding */
+  font-size: 15px; /* Adjust the font size */
+}
+
+.statistics-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+.statistics-table td {
+  text-align: center;
+}
+
+.statistics-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
